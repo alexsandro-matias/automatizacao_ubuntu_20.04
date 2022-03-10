@@ -15,7 +15,7 @@ sudo apt install language-pack-gnome-pt-base myspell-pt-br aspell-pt-br libreoff
 
 
 # Básicos
-sudo apt install libreoffice-java-common vim git vlc qbittorrent build-essential telegram-desktop gnome-shell-pomodoro screenfetch -y 
+sudo apt install libreoffice-java-common vim git vlc qbittorrent build-essential telegram-desktop gnome-shell-pomodoro screenfetch vlc virtualbox -y 
 
 
 # Opera Browser
@@ -59,6 +59,18 @@ sudo apt install brave-browser -y
 sudo apt install -f -y
 
 atualiza
+
+
+# Apagando os arquivo baixados no final
+rm -rf *.deb
+
+
+
+# Instalação do Python 
+sudo apt install python3.8 python3.8-dev python3.8-venv \
+  python3-venv idle-python3.8 python3-pip virtualenv gcc \
+  default-libmysqlclient-dev libssl-dev -y
+
 
 
 
