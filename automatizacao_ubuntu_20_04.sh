@@ -67,9 +67,12 @@ rm -rf *.deb
 
 
 # Instalação do Python 
-sudo apt install python3.8 python3.8-dev python3.8-venv \
-  python3-venv idle-python3.8 python3-pip virtualenv gcc \
-  default-libmysqlclient-dev libssl-dev -y
+sudo apt install python3-dev python3-venv \
+  python3-venv python3-pip virtualenv \
+  default-libmysqlclient-dev libssl-dev \
+  libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev\
+  wget curl llvm gettext libncurses5-dev tk-dev tcl-dev blt-dev libgdbm-dev\
+  python3-dev
 
 
 
