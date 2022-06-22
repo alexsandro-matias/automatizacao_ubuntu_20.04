@@ -10,7 +10,7 @@ atualiza
 
 # Pacotes de Idiomas
 
-sudo apt install language-pack-gnome-pt-base myspell-pt-br aspell-pt-br libreoffice-l10n-pt-br thunderbird-locale-pt-br firefox-locale-br -y
+sudo apt install language-pack-gnome-pt-base myspell-pt-br aspell-pt-br libreoffice-l10n-pt-br thunderbird-locale-pt-br firefox-locale-br yt-dlp -y
 
 
 
